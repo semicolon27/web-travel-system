@@ -2,7 +2,7 @@
     <main class="max-w-5xl p-5 mx-auto my-10 text-center">
         <router-view />
         <div>
-            <v-button @click="router.back()"> Go Back </v-button>
+            <c-button @click="router.back()"> Go Back </c-button>
         </div>
     </main>
 </template>

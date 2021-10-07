@@ -8,7 +8,8 @@ const store = createStore({
     modules: {
         user,
     },
-    strict: debug,
+    // strict: debug,
+    strict: false,
     plugins: debug ? [createLogger()] : [],
 })
 

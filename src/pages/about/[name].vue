@@ -9,7 +9,7 @@
             Reprehenderit, nam veniam quibusdam ab nulla rem.
         </p>
         <router-link to="/">
-            <v-button>Back to home</v-button>
+            <c-button>Back to home</c-button>
         </router-link>
     </div>
 </template>
